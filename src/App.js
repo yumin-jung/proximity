@@ -10,26 +10,49 @@ function App() {
     };
 
     const radius9999Elements = [
-      document.getElementById('circle1'),
-      document.getElementById('circle2'),
-      document.getElementById('circle3'),
-      document.getElementById('circle4'),
-      document.getElementById('circle5'),
-      document.getElementById('circle6'),
-      document.getElementById('circle7'),
-      document.getElementById('circle8'),
-      document.getElementById('circle9'),
-      document.getElementById('circle10'),
-      document.getElementById('circle11'),
-      document.getElementById('circle12'),
-      document.getElementById('circle13'),
+      /* P1 */
+      // document.getElementById('circle1'),
+      // document.getElementById('circle2'),
+      // document.getElementById('circle3'),
+      // document.getElementById('circle4'),
+      // document.getElementById('circle5'),
+      // document.getElementById('circle6'),
+      // document.getElementById('circle7'),
+      // document.getElementById('circle8'),
+      // document.getElementById('circle9'),
+      // document.getElementById('circle10'),
+      // document.getElementById('circle11'),
+      // document.getElementById('circle12'),
+      // document.getElementById('circle13'),
+      /* P2 */
+      document.getElementById('circle14'),
+      document.getElementById('circle15'),
+      document.getElementById('circle16'),
+      document.getElementById('circle17'),
+      document.getElementById('circle18'),
+      document.getElementById('circle19'),
+      document.getElementById('circle20'),
+      document.getElementById('circle21'),
+      document.getElementById('circle22'),
+      document.getElementById('circle23'),
+      document.getElementById('circle24'),
+      /* P3 */
+      // document.getElementById('circle25'),
+      // document.getElementById('circle26'),
     ];
     
     const nonRadius9999Elements = [
-      document.getElementById('line1'),
-      document.getElementById('line2'),
-      document.getElementById('line3'),
-      document.getElementById('line4'),
+      /* P1 */
+      // document.getElementById('line1'),
+      // document.getElementById('line2'),
+      // document.getElementById('line3'),
+      // document.getElementById('line4'),
+      /* P2 */
+      document.getElementById('line5'),
+      document.getElementById('line6'),
+      document.getElementById('line7'),
+      document.getElementById('line8'),
+      /* P3 */
     ];
 
     const distances = radius9999Elements.flatMap((circle) =>
@@ -56,7 +79,7 @@ function App() {
     <div className="App">
       <div style={{width: '100%', height: '100%', position: 'relative', background: 'white'}}>
       {/* P1 */}
-        <div id="line1" style={{width: 245, height: 0, left: 113, top: 18, position: 'absolute', border: '10px #FFD4A7 dotted'}}>l1</div>
+        {/* <div id="line1" style={{width: 245, height: 0, left: 113, top: 18, position: 'absolute', border: '10px #FFD4A7 dotted'}}>l1</div>
         <div id="line2" style={{width: 77.10, height: 0, left: 88.44, top: 372.37, position: 'absolute', transform: 'rotate(43.42deg)', transformOrigin: '0 0', border: '10px #FFD4A7 dotted'}}>l2</div>
         <div id="line3" style={{width: 141, height: 0, left: 1298, top: 23, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '10px #FFD4A7 dotted'}}>l3</div>
         <div id="line4" style={{width: 143, height: 0, left: 1704, top: 233, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '10px #FFD4A7 dotted'}}>l4</div>
@@ -72,15 +95,43 @@ function App() {
         <div id="circle10" style={{width: 21, height: 21, left: 628, top: 164, position: 'absolute', background: '#FFD4A7', borderRadius: 9999}} > c10 </div>
         <div id="circle11" style={{width: 21, height: 21, left: 563, top: 399, position: 'absolute', background: '#FFD4A7', borderRadius: 9999}} > c11 </div>
         <div id="circle12" style={{width: 21, height: 21, left: 607, top: 326, position: 'absolute', background: '#FFD4A7', borderRadius: 9999}} > c12 </div>
-        <div id="circle13" style={{width: 21, height: 21, left: 877, top: 364, position: 'absolute', background: '#FFD4A7', borderRadius: 9999}} > c13 </div>
+        <div id="circle13" style={{width: 21, height: 21, left: 877, top: 364, position: 'absolute', background: '#FFD4A7', borderRadius: 9999}} > c13 </div> */}
       {/* P2 */}
-        {/* <div id="line5" style={{width: 145, height: 0, left: 39, top: 54, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '10px #FFD35C solid'}}></div>
-        <div id="line6" style={{width: 145, height: 0, left: 103, top: 257, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '10px #FFD35C solid'}}></div>
-        <div id="line7" style={{width: 145, height: 0, left: 1279, top: 23, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '10px #FFD35C solid'}}></div>
-        <div id="line8" style={{width: 57, height: 0, left: 353, top: 314, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #D6914A solid'}}></div>
+        <div id="line5" style={{width: 145, height: 0, left: 39, top: 54, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '10px #FFD35C solid'}}>l5</div>
+        <div id="line6" style={{width: 145, height: 0, left: 103, top: 257, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '10px #FFD35C solid'}}>l6</div>
+        <div id="line7" style={{width: 145, height: 0, left: 1279, top: 23, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '10px #FFD35C solid'}}>l7</div>
+        <div id="line8" style={{width: 322, height: 0, left: 1920, top: 534, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: '0 0', border: '10px #FFD35C solid'}}>l8</div>
+        <div id="circle14" style={{width: 21, height: 21, left: 1399, top: 100, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} > c14 </div>
+        <div id="circle15" style={{width: 21, height: 21, left: 1213, top: 260, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} > c15 </div>
+        <div id="circle16" style={{width: 21, height: 21, left: 1590, top: 185, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} > c16 </div>
+        <div id="circle17" style={{width: 21, height: 21, left: 827, top: 10, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} > c17 </div>
+        <div id="circle18" style={{width: 21, height: 21, left: 970, top: 208, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} > c18 </div>
+        <div id="circle19" style={{width: 21, height: 21, left: 649, top: 399, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} > c19 </div>
+        <div id="circle20" style={{width: 21, height: 21, left: 120, top: 31, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} > c20 </div>
+        <div id="circle21" style={{width: 21, height: 21, left: 432, top: 165, position: 'absolute', background: '#FFD35C', borderRadius: 9999}}> c21 </div>
+        <div id="circle22" style={{width: 21, height: 21, left: 325, top: 243, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} > c22 </div>
+        <div id="circle23" style={{width: 21, height: 21, left: 304, top: 301, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} > c23 </div>
+        <div id="circle24" style={{width: 21, height: 21, left: 776, top: 121, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} > c24 </div>
+      {/* P3 */}
+        {/* <div id="line8" style={{width: 57, height: 0, left: 353, top: 314, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #D6914A solid'}}></div>
         <div id="line9" style={{width: 119, height: 0, left: 122, top: 376, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #D6914A solid'}}></div>
         <div id="line10" style={{width: 28, height: 0, left: 1298, top: 209, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #D6914A solid'}}></div>
         <div id="line11" style={{width: 28, height: 0, left: 1822, top: 181, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #D6914A solid'}}></div>
+        <div style={{width: 21, height: 21, left: 1246, top: 89, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
+        <div style={{width: 21, height: 21, left: 1225, top: 175, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
+        <div style={{width: 21, height: 21, left: 1213, top: 177, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
+        <div style={{width: 21, height: 21, left: 1234, top: 239, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
+        <div style={{width: 21, height: 21, left: 395, top: 167, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
+        <div style={{width: 21, height: 21, left: 453, top: 209, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
+        <div style={{width: 21, height: 21, left: 358, top: 290, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
+        <div style={{width: 21, height: 21, left: 348, top: 281, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
+        <div style={{width: 21, height: 21, left: 563, top: 233, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
+        <div style={{width: 21, height: 21, left: 797, top: 244, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
+        <div style={{width: 21, height: 21, left: 450, top: 322, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
+        <div style={{width: 21, height: 21, left: 461, top: 311, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
+        <div style={{width: 57, height: 0, left: 71, top: 209, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #D6914A solid'}}></div> */}
+
+        {/*
         <div id="line12" style={{width: 86, height: 0, left: 29, top: 212, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #DDCEFF dotted'}}></div>
         <div id="line13" style={{width: 141, height: 0, left: 1271, top: 164, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #DDCEFF dotted'}}></div>
         <div id="line14" style={{width: 129, height: 0, left: 1561, top: 376, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #DDCEFF dotted'}}></div>
@@ -112,27 +163,6 @@ function App() {
         <div id="line40" style={{width: 83, height: 0, left: 269, top: 358, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #5C80FF solid'}}></div>
         <div id="line41" style={{width: 128, height: 0, left: 1501, top: 372, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #5C80FF solid'}}></div>
         <div id="line42" style={{width: 102.55, height: 0, left: 1738, top: 175, position: 'absolute', transform: 'rotate(-133.81deg)', transformOrigin: '0 0', border: '10px #5C80FF solid'}}></div>
-        <div style={{width: 21, height: 21, left: 1399, top: 100, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 1420, top: 305, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 1213, top: 260, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 1590, top: 185, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 827, top: 10, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 970, top: 208, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 649, top: 399, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 120, top: 31, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 432, top: 165, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 1246, top: 89, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 1225, top: 175, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 1213, top: 177, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 1234, top: 239, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 395, top: 167, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 453, top: 209, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 358, top: 290, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 348, top: 281, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 563, top: 233, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 797, top: 244, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 450, top: 322, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 461, top: 311, position: 'absolute', background: '#D6914A', borderRadius: 9999}} />
         <div style={{width: 21, height: 21, left: 432, top: 253, position: 'absolute', background: '#DDCEFF', borderRadius: 9999}} />
         <div style={{width: 21, height: 21, left: 596, top: 399, position: 'absolute', background: '#DDCEFF', borderRadius: 9999}} />
         <div style={{width: 21, height: 21, left: 949, top: 78, position: 'absolute', background: '#DDCEFF', borderRadius: 9999}} />
@@ -177,9 +207,6 @@ function App() {
         <div style={{width: 21, height: 21, left: 426, top: 99, position: 'absolute', background: '#FFCEDB', borderRadius: 9999}} />
         <div style={{width: 21, height: 21, left: 1236, top: 317, position: 'absolute', background: '#FFCEDB', borderRadius: 9999}} />
         <div style={{width: 21, height: 21, left: 1236, top: 275, position: 'absolute', background: '#FFCEDB', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 325, top: 243, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 304, top: 301, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} />
-        <div style={{width: 21, height: 21, left: 776, top: 121, position: 'absolute', background: '#FFD35C', borderRadius: 9999}} />
         <div style={{width: 21, height: 21, left: 520, top: 300, position: 'absolute', background: '#FF5C86', borderRadius: 9999}} />
         <div style={{width: 21, height: 21, left: 1102, top: 189, position: 'absolute', background: '#FF5C86', borderRadius: 9999}} />
         <div style={{width: 21, height: 21, left: 279, top: 295, position: 'absolute', background: '#FF5C86', borderRadius: 9999}} />
@@ -209,7 +236,6 @@ function App() {
         <div style={{width: 21, height: 21, left: 360, top: 271, position: 'absolute', background: '#3350B8', borderRadius: 9999}} />
         <div style={{width: 21, height: 21, left: 877, top: 195, position: 'absolute', background: '#3350B8', borderRadius: 9999}} />
         <div style={{width: 21, height: 21, left: 1242, top: 120, position: 'absolute', background: '#3350B8', borderRadius: 9999}} />
-        <div style={{width: 57, height: 0, left: 71, top: 209, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #D6914A solid'}}></div>
         <div id="line43" style={{width: 90, height: 0, left: 471, top: 13, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: '0 0', border: '10px #DDCEFF dotted'}}></div>
         <div id="line44" style={{width: 100, height: 0, left: 72, top: 75.61, position: 'absolute', transform: 'rotate(-41deg)', transformOrigin: '0 0', background: '#3350B8', border: '10px #3350B8 solid'}}></div>
         <div id="line45" style={{width: 150, height: 0, left: 105, top: 424, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', background: '#3350B8', border: '10px #3350B8 solid'}}></div>
