@@ -384,15 +384,15 @@ function App() {
             <div id="line47" style={{width: 150, height: 0, left: 105, top: 424, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', background: '#3350B8', border: '10px #3350B8 solid'}}>l47</div>
             <div id="line48" style={{width: 120, height: 0, left: 1856, top: 269, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', background: '#3350B8', border: '10px #3350B8 solid'}}>l48</div>
             <div id="line49" style={{width: 60, height: 0, left: 1335, top: 202, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', background: '#3350B8', border: '10px #3350B8 solid'}}>l49</div>
-            <div id="circle104" style={{width: 21, height: 21, left: 436, top: 141, position: 'absolute', background: '#3350B8', borderRadius: 9999}} > c104 </div>
-            <div id="circle105" style={{width: 21, height: 21, left: 460, top: 77, position: 'absolute', background: '#3350B8', borderRadius: 9999}} > c105 </div>
-            <div id="circle106" style={{width: 21, height: 21, left: 345, top: 255, position: 'absolute', background: '#3350B8', borderRadius: 9999}} > c106 </div>
+            <div id="circle104" style={{width: 21, height: 21, left: 436, top: 141, position: 'absolute', background: '#3350B8', borderRadius: 9999, visibility: 'hidden'}} > c104 </div>
+            <div id="circle105" style={{width: 21, height: 21, left: 460, top: 77, position: 'absolute', background: '#3350B8', borderRadius: 9999, visibility: 'hidden'}} > c105 </div>
+            <div id="circle106" style={{width: 21, height: 21, left: 345, top: 255, position: 'absolute', background: '#3350B8', borderRadius: 9999, visibility: 'hidden'}} > c106 </div>
             <div id="circle107" style={{width: 21, height: 21, left: 360, top: 271, position: 'absolute', background: '#3350B8', borderRadius: 9999}} > c107 </div>
-            <div id="circle108" style={{width: 21, height: 21, left: 877, top: 195, position: 'absolute', background: '#3350B8', borderRadius: 9999}} > c108 </div>
-            <div id="circle109" style={{width: 21, height: 21, left: 1242, top: 120, position: 'absolute', background: '#3350B8', borderRadius: 9999}} > c109 </div>
+            <div id="circle108" style={{width: 21, height: 21, left: 877, top: 195, position: 'absolute', background: '#3350B8', borderRadius: 9999, visibility: 'hidden'}} > c108 </div>
+            <div id="circle109" style={{width: 21, height: 21, left: 1242, top: 120, position: 'absolute', background: '#3350B8', borderRadius: 9999, visibility: 'hidden'}} > c109 </div>
             <div id="circle110" style={{width: 21, height: 21, left: 456, top: 161, position: 'absolute', background: '#3350B8', borderRadius: 9999}} > c110 </div>
             <div id="circle111" style={{width: 21, height: 21, left: 480, top: 97, position: 'absolute', background: '#3350B8', borderRadius: 9999}} > c111 </div>
-            <div id="circle112" style={{width: 21, height: 21, left: 365, top: 275, position: 'absolute', background: '#3350B8', borderRadius: 9999}} > c112 </div>
+            <div id="circle112" style={{width: 21, height: 21, left: 365, top: 275, position: 'absolute', background: '#3350B8', borderRadius: 9999, visibility: 'hidden'}} > c112 </div>
             <div id="circle113" style={{width: 21, height: 21, left: 380, top: 291, position: 'absolute', background: '#3350B8', borderRadius: 9999}} > c113 </div>
             <div id="circle114" style={{width: 21, height: 21, left: 897, top: 215, position: 'absolute', background: '#3350B8', borderRadius: 9999}} > c114 </div>
             <div id="circle115" style={{width: 21, height: 21, left: 1262, top: 140, position: 'absolute', background: '#3350B8', borderRadius: 9999}} > c115 </div>
