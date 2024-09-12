@@ -210,23 +210,23 @@ function App() {
         {/* P3 */}
         {selectedPart === 'P3' && (
           <>
-            <div id="line9" style={{width: 57, height: 0, left: 353, top: 314, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #D6914A solid'}}>l9</div>
+            <div id="line9" style={{width: 57, height: 0, left: 353, top: 327, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #D6914A solid'}}>l9</div>
             <div id="line10" style={{width: 119, height: 0, left: 122, top: 376, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #D6914A solid'}}>l10</div>
             <div id="line11" style={{width: 28, height: 0, left: 1298, top: 209, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #D6914A solid'}}>l11</div>
             <div id="line12" style={{width: 28, height: 0, left: 1822, top: 181, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #D6914A solid'}}>l12</div>
             <div id="line13" style={{width: 57, height: 0, left: 71, top: 209, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #D6914A solid'}}>l13</div>
-            <div  id="circle25" style={{width: 21, height: 21, left: 1246, top: 89, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c25 </div>
-            <div  id="circle26" style={{width: 21, height: 21, left: 1225, top: 175, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c26 </div>
+            <div  id="circle25" style={{width: 21, height: 21, left: 1235, top: 89, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c25 </div>
+            <div  id="circle26" style={{width: 21, height: 21, left: 1225, top: 175, position: 'absolute', background: '#D6914A', borderRadius: 9999, visibility: 'hidden'}} > c26 </div>
             <div  id="circle27" style={{width: 21, height: 21, left: 1213, top: 177, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c27 </div>
-            <div  id="circle28" style={{width: 21, height: 21, left: 1234, top: 239, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c28 </div>
-            <div  id="circle29" style={{width: 21, height: 21, left: 395, top: 167, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c29 </div>
-            <div  id="circle30" style={{width: 21, height: 21, left: 453, top: 209, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c30 </div>
-            <div  id="circle31" style={{width: 21, height: 21, left: 358, top: 290, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c31 </div>
-            <div  id="circle32" style={{width: 21, height: 21, left: 348, top: 281, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c32 </div>
+            <div  id="circle28" style={{width: 21, height: 21, left: 1224, top: 239, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c28 </div>
+            <div  id="circle29" style={{width: 21, height: 21, left: 342, top: 167, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c29 </div>
+            <div  id="circle30" style={{width: 21, height: 21, left: 409, top: 167, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c30 </div>
+            <div  id="circle31" style={{width: 21, height: 21, left: 300, top: 167, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c31 </div>
+            <div  id="circle32" style={{width: 21, height: 21, left: 360, top: 280, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c32 </div>
             <div  id="circle33" style={{width: 21, height: 21, left: 563, top: 233, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c33 </div>
             <div  id="circle34" style={{width: 21, height: 21, left: 797, top: 244, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c34 </div>
             <div  id="circle35" style={{width: 21, height: 21, left: 450, top: 322, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c35 </div>
-            <div  id="circle36" style={{width: 21, height: 21, left: 461, top: 311, position: 'absolute', background: '#D6914A', borderRadius: 9999}} > c36 </div> 
+            <div  id="circle36" style={{width: 21, height: 21, left: 461, top: 311, position: 'absolute', background: '#D6914A', borderRadius: 9999, visibility: 'hidden'}} > c36 </div> 
           </>
         )}
 
@@ -339,7 +339,7 @@ function App() {
             <div id="line37" style={{width: 150, height: 0, left: 1454, top: 383, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: '0 0', border: '10px #D64A6E solid'}}>l37</div>
             <div id="circle87" style={{width: 21, height: 21, left: 1203, top: 132, position: 'absolute', background: '#D64A6E', borderRadius: 9999}} > c87 </div>
             <div id="circle88" style={{width: 21, height: 21, left: 1210, top: 286, position: 'absolute', background: '#D64A6E', borderRadius: 9999}} > c88 </div>
-            <div id="circle89" style={{width: 21, height: 21, left: 1204, top: 264, position: 'absolute', background: '#D64A6E', borderRadius: 9999}} > c89 </div>
+            <div id="circle89" style={{width: 21, height: 21, left: 1204, top: 264, position: 'absolute', background: '#D64A6E', borderRadius: 9999, visibility: 'hidden'}} > c89 </div>
             <div id="circle90" style={{width: 21, height: 21, left: 405, top: 70, position: 'absolute', background: '#D64A6E', borderRadius: 9999}} > c90 </div>
             <div id="circle91" style={{width: 21, height: 21, left: 261, top: 327, position: 'absolute', background: '#D64A6E', borderRadius: 9999}} > c91 </div>
             <div id="circle92" style={{width: 21, height: 21, left: 549, top: 344, position: 'absolute', background: '#D64A6E', borderRadius: 9999}} > c92 </div>
